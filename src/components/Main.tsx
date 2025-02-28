@@ -17,7 +17,7 @@ function Main() {
             <a href="https://github.com/aditya2278" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/adityakulkarnii/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
-          <h1>Aditya Kulkarni</h1>
+          <h1>Aditya King</h1>
           <p>Technical Product Manager</p>
 
           <div className="mobile_social_icons">
