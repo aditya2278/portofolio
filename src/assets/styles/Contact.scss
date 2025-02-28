@@ -1,0 +1,86 @@
+:root {
+  --contact-input-text-color: #050f0b;  // Dark text for light backgrounds
+  --contact-label-color: #050f0b;
+}
+
+.dark-mode {
+  --contact-input-text-color: #fff;  // White text for dark backgrounds
+  --contact-label-color: #fff;
+}
+
+.contact_wrapper svg {
+  font-size: 1em;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.contact-form {
+  padding-top: 20px;
+
+  button {
+    float: right;
+    background-color: white;
+    color: #050f0b;
+  }
+
+  button:hover {
+    background-color: #5000ca;
+    color: white;
+  }
+
+  fieldset {
+    background-color: white;
+  }
+}
+
+label {
+  font-size: 1.2rem;
+  font-family: 'DomaineDispNar-Medium', sans-serif;
+}
+
+.form-flex {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+.form-flex .MuiFormControl-root {
+  width: 100%;
+}
+
+form {
+  width: 100% !important;
+}
+
+.body-form {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
+
+/* Ensure the input text is clearly visible */
+.contact-form .MuiInputBase-input {
+  color: var(--contact-input-text-color) !important;
+}
+
+/* Style the input labels */
+.contact-form .MuiInputLabel-root {
+  color: var(--contact-label-color) !important;
+}
+
+/* Customize the border colors for outlined inputs */
+.contact-form .MuiOutlinedInput-root {
+  .MuiOutlinedInput-notchedOutline {
+    border-color: #5000ca; /* Accent color */
+  }
+  &:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #5000ca;
+  }
+  &.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #5000ca;
+  }
+}
+
+/* Customize placeholder text color */
+.contact-form input::placeholder {
+  color: rgba(5, 15, 11, 0.6);
+}
